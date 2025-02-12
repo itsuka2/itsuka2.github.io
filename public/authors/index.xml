@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors on Itsuka的小站</title>
+    <link>https://itsuka2.github.io/authors/</link>
+    <description>Recent content in Authors on Itsuka的小站</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© 2025 Itsuka的小站</copyright>
+    <atom:link href="https://itsuka2.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
+    
+  </channel>
+</rss>

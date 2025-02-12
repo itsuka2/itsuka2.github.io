@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>思想 on Itsuka的小站</title>
+    <link>https://itsuka2.github.io/tags/%E6%80%9D%E6%83%B3/</link>
+    <description>Recent content in 思想 on Itsuka的小站</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© 2025 Itsuka的小站</copyright>
+    <lastBuildDate>Mon, 17 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://itsuka2.github.io/tags/%E6%80%9D%E6%83%B3/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>分块思想</title>
+      <link>https://itsuka2.github.io/posts/sqrt-decomposition/</link>
+      <pubDate>Mon, 17 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://itsuka2.github.io/posts/sqrt-decomposition/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://itsuka2.github.io/posts/sqrt-decomposition/feature_Gh4MBNTbAAAJHoJ.jpg" />
+    </item>
+    
+  </channel>
+</rss>

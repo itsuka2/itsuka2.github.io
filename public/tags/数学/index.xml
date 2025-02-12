@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>数学 on Itsuka的小站</title>
+    <link>https://itsuka2.github.io/tags/%E6%95%B0%E5%AD%A6/</link>
+    <description>Recent content in 数学 on Itsuka的小站</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© 2025 Itsuka的小站</copyright>
+    <lastBuildDate>Tue, 11 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://itsuka2.github.io/tags/%E6%95%B0%E5%AD%A6/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>数论总结</title>
+      <link>https://itsuka2.github.io/posts/number-theory/</link>
+      <pubDate>Tue, 11 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://itsuka2.github.io/posts/number-theory/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://itsuka2.github.io/posts/number-theory/feature_9e729602ad85e9fe1f415e9cc98e1ebe_1879240451371017447.jpg" />
+    </item>
+    
+  </channel>
+</rss>
