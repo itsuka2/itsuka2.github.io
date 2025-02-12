@@ -1,0 +1,37 @@
+name: Deploy to GitHub Pages
+
+on:
+ push:
+   branches:
+     - main
+
+jobs:
+ build:
+   runs-on: ubuntu-latest
+
+   steps:
+   - name: Checkout repository
+     uses: actions/checkout@v2
+     with:
+       submodules: true        # 使用子模块
+
+   - name: Setup Hugo
+     uses: peaceiris/actions-hugo@v2
+     with:
+       hugo-version: 'latest'
+       extended: true          # 使用 extended 版 hugo
+
+   - name: Build the website
+     run: hugo --gc --minify --cleanDestinationDir # 这里我加了附加参数，可以不需要
+
+   - name: Deploy to GitHub Pages
+     uses: peaceiris/actions-gh-pages@v3
+     with:
+
+       personal_token: ${{ secrets.BLOGPUSH }}   # PUBLIC 请改为你设置的 Secret 名称
+
+       publish_dir: ./public
+
+       external_repository: itsuka2/itsuka2.github.io    # 改为你自己的仓库
+
+       publish_branch: main    # push 的仓库的分支

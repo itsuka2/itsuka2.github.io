@@ -1,0 +1,1554 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="scroll-smooth" data-default-appearance="light"
+  data-auto-appearance="true"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  
+  <meta http-equiv="content-language" content="en" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  
+  <title>高级数论总结 &middot; Itsuka的小站</title>
+  <meta name="title" content="高级数论总结 &middot; Itsuka的小站" />
+  
+  <meta name="description" content="测试性文章" />
+  <meta name="keywords" content="数学, 阶段总结, " />
+  
+  
+  <link rel="canonical" href="http://localhost:1313/posts/hello/" />
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.1c9cd0d1ebaf117272b5c4f6bd49878475cb210d5e0da4f061632d779f5bb46851881c187e6e634dba5071c4e3d80e7d5cec1dd80443b2fa68acd358f9eda881.css"
+    integrity="sha512-HJzQ0euvEXJytcT2vUmHhHXLIQ1eDaTwYWMtd59btGhRiBwYfm5jTbpQccTj2A59XOwd2ARDsvporNNY&#43;e2ogQ==" />
+  
+  
+  <script type="text/javascript" src="/js/appearance.min.516a16745bea5a9bd011138d254cc0fd3973cd55ce6e15f3dec763e7c7c2c7448f8fe7b54cca811cb821b0c7e12cd161caace1dd794ac3d34d40937cbcc9ee12.js"
+    integrity="sha512-UWoWdFvqWpvQERONJUzA/TlzzVXObhXz3sdj58fCx0SPj&#43;e1TMqBHLghsMfhLNFhyqzh3XlKw9NNQJN8vMnuEg=="></script>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script defer type="text/javascript" id="script-bundle" src="/js/main.bundle.min.0c424ab1c6aafe2039f09c49da59e609e9c3639b293d752971a3f96bb967114eb9719493d28e382b62527c185812ddc2c5a3664a3a21d0cbab06dafccbf685e4.js"
+    integrity="sha512-DEJKscaq/iA58JxJ2lnmCenDY5spPXUpcaP5a7lnEU65cZST0o44K2JSfBhYEt3CxaNmSjoh0MurBtr8y/aF5A==" data-copy="" data-copied=""></script>
+  
+  
+  
+  <script src="/lib/zoom/zoom.min.fcbc7f7b3dcea96e3b5570cd322c5d7a12d5351c87f9889b1c31745a2cc711df58f6b70795a86d50e63813b236ade916668332c10a70a4ce26f7c0878f525fce.js" integrity="sha512-/Lx/ez3OqW47VXDNMixdehLVNRyH&#43;YibHDF0WizHEd9Y9rcHlahtUOY4E7I2rekWZoMywQpwpM4m98CHj1Jfzg=="></script>
+  
+  
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+  
+  
+  
+  
+  
+  
+  
+  
+  <meta property="og:url" content="http://localhost:1313/posts/hello/">
+  <meta property="og:site_name" content="Itsuka的小站">
+  <meta property="og:title" content="高级数论总结">
+  <meta property="og:description" content="测试性文章">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-02-11T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-02-12T00:00:00+00:00">
+    <meta property="article:tag" content="数学">
+    <meta property="article:tag" content="阶段总结">
+    <meta property="og:image" content="http://localhost:1313/posts/hello/feature_Citlali.jpg">
+
+  
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="http://localhost:1313/posts/hello/feature_Citlali.jpg">
+  <meta name="twitter:title" content="高级数论总结">
+  <meta name="twitter:description" content="测试性文章">
+
+  
+  <script type="application/ld+json">
+  [{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "articleSection": "Posts",
+    "name": "高级数论总结",
+    "headline": "高级数论总结",
+    "description": "测试性文章",
+    
+    "inLanguage": "en",
+    "url" : "http:\/\/localhost:1313\/posts\/hello\/",
+    "author" : {
+      "@type": "Person",
+      "name": ""
+    },
+    "copyrightYear": "2025",
+    "dateCreated": "2025-02-11T00:00:00\u002b00:00",
+    "datePublished": "2025-02-11T00:00:00\u002b00:00",
+    
+    "dateModified": "2025-02-12T00:00:00\u002b00:00",
+    
+    "keywords": ["数学","阶段总结"],
+    
+    "mainEntityOfPage": "true",
+    "wordCount": "331"
+  }]
+  </script>
+
+
+  
+  
+  
+  
+  
+
+<script src="/lib/jquery/jquery.slim.min.03cb160e3cfdb2667a2e2c80d283bebcf63ff8bbc4b629c9ab2babf6fae1d0c07ad470edae783efa4fabda2ac01c58d60e63b98b3c336be8208460f08f4354f5.js" integrity="sha512-A8sWDjz9smZ6LiyA0oO&#43;vPY/&#43;LvEtinJqyur9vrh0MB61HDtrng&#43;&#43;k&#43;r2irAHFjWDmO5izwza&#43;gghGDwj0NU9Q=="></script>
+
+
+
+
+
+
+
+
+
+
+
+<link type="text/css" rel="stylesheet" href="/lib/katex/katex.min.9a243bd9a824b2db256f73c9cc08fb4324ade4b3561b6be07f389ca3d8f7fa47c89542d2c842370a70ca90adaa9a870142bc63b4ffc147db7c29696bc107c761.css" integrity="sha512-miQ72agkstslb3PJzAj7QySt5LNWG2vgfzico9j3&#43;kfIlULSyEI3CnDKkK2qmocBQrxjtP/BR9t8KWlrwQfHYQ==" />
+
+
+<script defer src="/lib/katex/katex.min.8c68eaeb75cfdcfac071717a969e1b9d9230ad52c6a2ac21ff846eaf6a258364cbb79e5e3552e32c280faeb4f4eda4d7c5bd1492e30a961c737e1e5305300281.js" integrity="sha512-jGjq63XP3PrAcXF6lp4bnZIwrVLGoqwh/4Rur2olg2TLt55eNVLjLCgPrrT07aTXxb0UkuMKlhxzfh5TBTACgQ=="></script>
+
+
+<script defer src="/lib/katex/auto-render.min.e9b2833d28623d18c071d78ef13e9c79d695122d296af3dbcee7bf1bf6518b0565bab59939267fbc8f5faf696193c20f5caef3e7501969cfb306f6738032730d.js" integrity="sha512-6bKDPShiPRjAcdeO8T6cedaVEi0pavPbzue/G/ZRiwVlurWZOSZ/vI9fr2lhk8IPXK7z51AZac&#43;zBvZzgDJzDQ=="
+  onload="renderMathInElement(document.body);"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+  
+  <meta name="theme-color"/>
+  
+  
+</head>
+<body
+  class="flex flex-col h-screen px-6 m-auto text-lg leading-7 max-w-7xl bg-neutral text-neutral-900 dark:bg-neutral-800 dark:text-neutral sm:px-14 md:px-24 lg:px-32 scrollbar-thin scrollbar-track-neutral-200 scrollbar-thumb-neutral-400 dark:scrollbar-track-neutral-800 dark:scrollbar-thumb-neutral-600">
+  <div id="the-top" class="absolute flex self-center">
+    <a class="px-3 py-1 text-sm -translate-y-8 rounded-b-lg bg-primary-200 focus:translate-y-0 dark:bg-neutral-600"
+      href="#main-content"><span
+        class="font-bold text-primary-600 ltr:pr-2 rtl:pl-2 dark:text-primary-400">&darr;</span>跳过正文</a>
+  </div>
+  
+  
+  <div class="min-h-[148px]"></div>
+<div class="fixed inset-x-0 min-h-[130px] opacity-65 pl-[24px] pr-[24px] bg-gradient-to-b from-neutral from-60% dark:from-neutral-800 to-transparent mix-blend-normal" style="z-index:80"></div>
+<div class="fixed inset-x-0 pl-[24px] pr-[24px]" style="z-index:100">
+  <div id="menu-blur" class="absolute opacity-0 inset-x-0 top-0 h-full single_hero_background nozoom backdrop-blur-2xl shadow-2xl"></div>
+  <div class="relative max-w-[64rem] ml-auto mr-auto">
+    <div style="padding-left:0;padding-right:0;padding-top:2px;padding-bottom:3px"
+    class="main-menu flex items-center justify-between px-4 py-6 sm:px-6 md:justify-start gap-x-3">
+    
+    <div class="flex flex-1 items-center justify-between">
+        <nav class="flex space-x-3">
+
+            
+            <a href="/" class="text-base font-medium text-gray-500 hover:text-gray-900">Itsuka的小站</a>
+            
+
+        </nav>
+        <nav class="hidden md:flex items-center gap-x-5 md:ml-12 h-12">
+
+            
+            
+            
+  <a href="/posts/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    
+    <p class="text-base font-medium" title="Posts">
+        文章
+    </p>
+</a>
+
+
+
+            
+            
+  <a href="/categories/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    
+    <p class="text-base font-medium" title="Categories">
+        分类
+    </p>
+</a>
+
+
+
+            
+            
+  <a href="/tags/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    
+    <p class="text-base font-medium" title="Tags">
+        标签
+    </p>
+</a>
+
+
+
+            
+            
+
+            
+
+
+            
+            <button id="search-button" aria-label="Search" class="text-base hover:text-primary-600 dark:hover:text-primary-400"
+                title="">
+                
+
+  <span class="relative block icon">
+    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+
+  </span>
+
+
+            </button>
+            
+
+
+            
+            
+            <div
+                class=" flex items-center">
+                <button id="appearance-switcher" aria-label="Dark mode switcher" type="button" class="text-base hover:text-primary-600 dark:hover:text-primary-400">
+                    <div class="flex items-center justify-center dark:hidden">
+                        
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M32 256c0-123.8 100.3-224 223.8-224c11.36 0 29.7 1.668 40.9 3.746c9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3c9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480C132.1 480 32 379.6 32 256z"/></svg>
+
+  </span>
+
+
+                    </div>
+                    <div class="items-center justify-center hidden dark:flex">
+                        
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/></svg>
+
+  </span>
+
+
+                    </div>
+                </button>
+            </div>
+            
+
+        </nav>
+        <div class="flex md:hidden items-center gap-x-5 md:ml-12 h-12">
+
+            <span></span>
+
+            
+
+
+            
+            <button id="search-button-mobile" aria-label="Search" class="text-base hover:text-primary-600 dark:hover:text-primary-400"
+                title="">
+                
+
+  <span class="relative block icon">
+    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+
+  </span>
+
+
+            </button>
+            
+
+            
+            
+            <button id="appearance-switcher-mobile" aria-label="Dark mode switcher" type="button" class="text-base hover:text-primary-600 dark:hover:text-primary-400 ltr:mr-1 rtl:ml-1">
+                <div class="flex items-center justify-center dark:hidden">
+                    
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M32 256c0-123.8 100.3-224 223.8-224c11.36 0 29.7 1.668 40.9 3.746c9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3c9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480C132.1 480 32 379.6 32 256z"/></svg>
+
+  </span>
+
+
+                </div>
+                <div class="items-center justify-center hidden dark:flex">
+                    
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/></svg>
+
+  </span>
+
+
+                </div>
+            </button>
+            
+
+        </div>
+    </div>
+    <div class="-my-2 md:hidden">
+
+        <label id="menu-button" class="block">
+            
+            <div class="cursor-pointer hover:text-primary-600 dark:hover:text-primary-400">
+                
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M0 96C0 78.33 14.33 64 32 64H416C433.7 64 448 78.33 448 96C448 113.7 433.7 128 416 128H32C14.33 128 0 113.7 0 96zM0 256C0 238.3 14.33 224 32 224H416C433.7 224 448 238.3 448 256C448 273.7 433.7 288 416 288H32C14.33 288 0 273.7 0 256zM416 448H32C14.33 448 0 433.7 0 416C0 398.3 14.33 384 32 384H416C433.7 384 448 398.3 448 416C448 433.7 433.7 448 416 448z"/></svg>
+
+  </span>
+
+
+            </div>
+            <div id="menu-wrapper" style="padding-top:5px;"
+                class="fixed inset-0 z-30 invisible w-screen h-screen m-0 overflow-auto transition-opacity opacity-0 cursor-default bg-neutral-100/50 backdrop-blur-sm dark:bg-neutral-900/50">
+                <ul
+                    class="flex space-y-2 mt-3 flex-col items-end w-full px-6 py-6 mx-auto overflow-visible list-none ltr:text-right rtl:text-left max-w-7xl">
+
+                    <li id="menu-close-button">
+                        <span
+                            class="cursor-pointer inline-block align-text-bottom hover:text-primary-600 dark:hover:text-primary-400">
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
+
+  </span>
+
+</span>
+                    </li>
+
+                    
+
+                    
+  <li class="mt-1">
+    <a href="/posts/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <p class="text-bg font-bg" title="Posts">
+            文章
+        </p>
+    </a>
+</li>
+
+
+
+
+                    
+
+                    
+  <li class="mt-1">
+    <a href="/categories/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <p class="text-bg font-bg" title="Categories">
+            分类
+        </p>
+    </a>
+</li>
+
+
+
+
+                    
+
+                    
+  <li class="mt-1">
+    <a href="/tags/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <p class="text-bg font-bg" title="Tags">
+            标签
+        </p>
+    </a>
+</li>
+
+
+
+
+                    
+
+                </ul>
+                
+                
+
+            </div>
+        </label>
+    </div>
+</div>
+
+
+
+
+
+  </div>
+</div>
+<script>
+  window.addEventListener('scroll', function (e) {
+    var scroll = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+    var background_blur = document.getElementById('menu-blur');
+    background_blur.style.opacity = (scroll / 300);
+  });
+</script>
+
+  
+  <div class="relative flex flex-col grow">
+    <main id="main-content" class="grow">
+      
+
+
+<article>
+  
+  
+  
+  
+  
+  
+
+        
+        <figure>
+            <img class="w-full rounded-lg single_hero_round nozoom" alt="高级数论总结" width="1200" height="675" src="/posts/hello/feature_Citlali_hu_1d94bbab3f8c6a8e.jpg">
+            
+        </figure>
+        
+    
+  
+  
+
+  <header id="single_header" class="mt-5 max-w-prose">
+    
+    <ol class="text-sm text-neutral-500 dark:text-neutral-400 print:hidden">
+  
+  
+    
+  
+    
+  
+  <li class="inline hidden">
+    <a
+      class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
+      href="/"
+      >Itsuka的小站</a
+    ><span class="px-1 text-primary-500">/</span>
+  </li>
+
+  
+  <li class="inline ">
+    <a
+      class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
+      href="/posts/"
+      >Posts</a
+    ><span class="px-1 text-primary-500">/</span>
+  </li>
+
+  
+  <li class="inline hidden">
+    <a
+      class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
+      href="/posts/hello/"
+      >高级数论总结</a
+    ><span class="px-1 text-primary-500">/</span>
+  </li>
+
+</ol>
+
+
+    
+    <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+      高级数论总结
+    </h1>
+    <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
+      
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  <time datetime="2025-02-11T00:00:00&#43;00:00">11 February 2025</time><span class="px-2 text-primary-500">&middot;</span><time datetime="2025-02-12T00:00:00&#43;00:00">更新于: 12 February 2025</time><span class="px-2 text-primary-500">&middot;</span>
+
+
+<script type="text/javascript" src="/js/zen-mode.min.eea5245cf9244ecbdf2c150d1c8833226c1541cadf6e98f63a7c9192b1a3676df2c3ec603b14f4cfaaa53971fd9d8955640c0f405bf3de2b43ee7a5fb29ae721.js" integrity="sha512-7qUkXPkkTsvfLBUNHIgzImwVQcrfbpj2OnyRkrGjZ23yw&#43;xgOxT0z6qlOXH9nYlVZAwPQFvz3itD7npfsprnIQ=="></script>
+
+<span class="mb-[2px]">
+    <span id="zen-mode-button"
+          class="text-lg hover:text-primary-500"
+          title=""
+          data-title-i18n-disable=""
+          data-title-i18n-enable="">
+        <span class="inline-block align-text-bottom">
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="50px" height="50px">
+    <path fill="currentColor" d="M 12.980469 4 C 9.1204688 4 5.9804688 7.14 5.9804688 11 L 6 26 L 9.9804688 26 L 9.9804688 11 C 9.9804688 9.35 11.320469 8 12.980469 8 L 40.019531 8 C 41.679531 8 43.019531 9.35 43.019531 11 L 43.019531 39 C 43.019531 40.65 41.679531 42 40.019531 42 L 29 42 C 29 43.54 28.420938 44.94 27.460938 46 L 40.019531 46 C 43.879531 46 47.019531 42.86 47.019531 39 L 47.019531 11 C 47.019531 7.14 43.879531 4 40.019531 4 L 12.980469 4 z M 7 28 C 4.794 28 3 29.794 3 32 L 3 42 C 3 44.206 4.794 46 7 46 L 23 46 C 25.206 46 27 44.206 27 42 L 27 32 C 27 29.794 25.206 28 23 28 L 7 28 z M 7 32 L 23 32 L 23.001953 42 L 7 42 L 7 32 z"/>
+</svg>
+  </span>
+
+</span>
+    </span>
+</span>
+  
+
+  
+  
+</div>
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/%E6%95%B0%E5%AD%A6/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    数学
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/%E9%98%B6%E6%AE%B5%E6%80%BB%E7%BB%93/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    阶段总结
+  </span>
+</span>
+  </span>
+  
+  
+  
+  
+</div>
+
+
+
+
+    </div>
+
+    
+    
+    
+    
+    
+
+    
+
+    
+      
+      
+
+      
+
+      
+
+    
+
+  </header>
+  
+  <section class="flex flex-col max-w-full mt-0 prose dark:prose-invert lg:flex-row">
+    
+     <div
+      class="order-first lg:ml-auto px-0 lg:order-last ltr:lg:pl-8 rtl:lg:pr-8">
+      <div class="toc ltr:pl-5 rtl:pr-5 print:hidden lg:sticky lg:top-[140px]">
+
+         <details open id="TOCView"
+  class="toc-right mt-0 overflow-y-scroll overscroll-contain scrollbar-thin scrollbar-track-neutral-200 scrollbar-thumb-neutral-400 dark:scrollbar-track-neutral-800 dark:scrollbar-thumb-neutral-600 rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 hidden lg:block">
+  <summary
+    class="block py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
+    目录
+  </summary>
+  <div
+    class="min-w-[220px] py-2 border-dotted ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#常见名词">常见名词</a>
+      <ul>
+        <li><a href="#单位元-varepsilonn">单位元 \(\varepsilon(n)\)</a></li>
+        <li><a href="#逆元-f-1">逆元 \(f^{-1}\)</a></li>
+        <li><a href="#幂函数-id_kn">幂函数 \(ID_k(n)\)</a></li>
+        <li><a href="#除数函数-sigma_kn">除数函数 \(\sigma_k(n)\)</a></li>
+        <li><a href="#欧拉函数-varphin">欧拉函数 \(\varphi(n)\)</a></li>
+        <li><a href="#莫比乌斯函数-mun">莫比乌斯函数 \(\mu(n)\)</a></li>
+      </ul>
+    </li>
+    <li><a href="#常见卷积">常见卷积</a>
+      <ul>
+        <li><a href="#狄利克雷dirichlet卷积">狄利克雷（Dirichlet）卷积</a></li>
+        <li><a href="#一些卷积式">一些卷积式</a></li>
+      </ul>
+    </li>
+    <li><a href="#常见定理">常见定理</a>
+      <ul>
+        <li><a href="#欧拉定理">欧拉定理</a></li>
+        <li><a href="#拓展欧拉定理">拓展欧拉定理</a></li>
+      </ul>
+    </li>
+    <li><a href="#筛子">筛子</a>
+      <ul>
+        <li><a href="#线性筛">线性筛</a></li>
+        <li><a href="#埃氏筛">埃氏筛</a></li>
+        <li><a href="#杜教筛">杜教筛</a></li>
+        <li><a href="#pn筛">PN筛</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+  </div>
+</details>
+<details class="toc-inside mt-0 overflow-hidden rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 lg:hidden">
+  <summary
+    class="py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
+    目录
+  </summary>
+  <div
+    class="py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#常见名词">常见名词</a>
+      <ul>
+        <li><a href="#单位元-varepsilonn">单位元 \(\varepsilon(n)\)</a></li>
+        <li><a href="#逆元-f-1">逆元 \(f^{-1}\)</a></li>
+        <li><a href="#幂函数-id_kn">幂函数 \(ID_k(n)\)</a></li>
+        <li><a href="#除数函数-sigma_kn">除数函数 \(\sigma_k(n)\)</a></li>
+        <li><a href="#欧拉函数-varphin">欧拉函数 \(\varphi(n)\)</a></li>
+        <li><a href="#莫比乌斯函数-mun">莫比乌斯函数 \(\mu(n)\)</a></li>
+      </ul>
+    </li>
+    <li><a href="#常见卷积">常见卷积</a>
+      <ul>
+        <li><a href="#狄利克雷dirichlet卷积">狄利克雷（Dirichlet）卷积</a></li>
+        <li><a href="#一些卷积式">一些卷积式</a></li>
+      </ul>
+    </li>
+    <li><a href="#常见定理">常见定理</a>
+      <ul>
+        <li><a href="#欧拉定理">欧拉定理</a></li>
+        <li><a href="#拓展欧拉定理">拓展欧拉定理</a></li>
+      </ul>
+    </li>
+    <li><a href="#筛子">筛子</a>
+      <ul>
+        <li><a href="#线性筛">线性筛</a></li>
+        <li><a href="#埃氏筛">埃氏筛</a></li>
+        <li><a href="#杜教筛">杜教筛</a></li>
+        <li><a href="#pn筛">PN筛</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+  </div>
+</details>
+
+<script>
+
+  var margin = 200;
+  var marginError = 50;
+
+  (function () {
+    var $window = $(window);
+    var $toc = $('#TOCView');
+    var tocHeight = $toc.height();
+
+    function onResize() {
+      var windowAndMarginHeight = $window.height() - margin;
+      if(tocHeight >= windowAndMarginHeight) {
+        $toc.css("overflow-y", "scroll")
+        $toc.css("max-height", (windowAndMarginHeight + marginError) + "px")
+      } else {
+        $toc.css("overflow-y", "hidden")
+        $toc.css("max-height", "9999999px")
+      }
+    }
+
+    $window.on('resize', onResize);
+    $(document).ready(onResize);
+  })();
+
+
+
+  (function () {
+    var $toc = $('#TableOfContents');
+    if ($toc.length > 0) {
+      var $window = $(window);
+
+      function onScroll() {
+        var currentScroll = $window.scrollTop();
+        var h = $('.anchor');
+        var id = "";
+        h.each(function (i, e) {
+          e = $(e);
+          if (e.offset().top - $(window).height()/3 <= currentScroll) {
+            id = decodeURIComponent(e.attr('id'));
+          }
+        });
+        var active = $toc.find('a.active');      
+        if (active.length == 1 && active.eq(0).attr('href') == '#' + id) return true;
+
+        active.each(function (i, e) {
+          
+            $(e).removeClass('active');
+          
+        });
+        $toc.find('a[href="#' + id + '"]').addClass('active')
+        $toc.find('a[href="#' + id + '"]').parentsUntil('#TableOfContents').each(function (i, e) {
+          $(e).children('a').parents('ul').show();          
+        });
+      }
+
+      $window.on('scroll', onScroll);
+      $(document).ready(function () {
+        
+        onScroll();
+      });
+    }
+  })();
+
+
+</script>
+   </div>
+      </div>
+      
+
+      <div class="min-w-0 min-h-0 max-w-fit">
+        
+        
+
+
+        <div class="article-content max-w-prose mb-20">
+          <p>我个人比较偏向于把数论和组合的卷积和反演分开理解.</p>
+<p><del>实际上是组合数太难了（逃……</del></p>
+
+
+<h2 class="relative group">常见名词 
+    <div id="%E5%B8%B8%E8%A7%81%E5%90%8D%E8%AF%8D" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E5%B8%B8%E8%A7%81%E5%90%8D%E8%AF%8D" aria-label="锚点">#</a>
+    </span>        
+    
+</h2>
+
+
+
+
+<h3 class="relative group">单位元 \(\varepsilon(n)\) 
+    <div id="%E5%8D%95%E4%BD%8D%E5%85%83-varepsilonn" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E5%8D%95%E4%BD%8D%E5%85%83-varepsilonn" aria-label="锚点">#</a>
+    </span>        
+    
+</h3>
+<p>
+\(\varepsilon(n)=[n=1]\)</p>
+<p>显然完全积性.</p>
+
+
+
+
+<h3 class="relative group">逆元 \(f^{-1}\) 
+    <div id="%E9%80%86%E5%85%83-f-1" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E9%80%86%E5%85%83-f-1" aria-label="锚点">#</a>
+    </span>        
+    
+</h3>
+<p>当 
+\(f*f^{-1}=\varepsilon\) 时，称 
+\(f^{-1}\) 是 
+\(f\) 的逆.</p>
+
+
+
+
+<h3 class="relative group">幂函数 \(ID_k(n)\) 
+    <div id="%E5%B9%82%E5%87%BD%E6%95%B0-id_kn" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E5%B9%82%E5%87%BD%E6%95%B0-id_kn" aria-label="锚点">#</a>
+    </span>        
+    
+</h3>
+<p>
+\(ID_k(n)=n^k\) ，特别地，
+\(ID(n)=n\) .</p>
+<p>显然完全积性.</p>
+
+
+
+
+<h3 class="relative group">除数函数 \(\sigma_k(n)\) 
+    <div id="%E9%99%A4%E6%95%B0%E5%87%BD%E6%95%B0-sigma_kn" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E9%99%A4%E6%95%B0%E5%87%BD%E6%95%B0-sigma_kn" aria-label="锚点">#</a>
+    </span>        
+    
+</h3>
+<p>
+\(\sigma_k(n)=\sum_{d|n}d^k\)</p>
+<p>感性理解 
+\(\sigma_k(n)\) 表示 
+\(n\) 的所有因子 
+\(k\) 次幂之和.</p>
+<p>显然积性.</p>
+<p>比如，
+\(\sigma_0(n)\) 表示 
+\(n\) 的因数个数，
+\(\sigma_1(n)\) 表示 
+\(n\) 的因数和.</p>
+
+
+
+
+<h3 class="relative group">欧拉函数 \(\varphi(n)\) 
+    <div id="%E6%AC%A7%E6%8B%89%E5%87%BD%E6%95%B0-varphin" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E6%AC%A7%E6%8B%89%E5%87%BD%E6%95%B0-varphin" aria-label="锚点">#</a>
+    </span>        
+    
+</h3>
+<p>
+\(\varphi(n)=\sum_{i=1}^{n}[(i,n)=1]\)</p>
+<p>说人话就是在 
+\(1\sim n\) 中和 
+\(n\) 互质的数的个数.</p>
+<p>四个式子：</p>
+<ol>
+<li>
+<p>这是个积性函数，即当 
+\((i,j)=1\) 时，
+\(\varphi(ij)=\varphi(i)\times\varphi(j)\) .</p>
+</li>
+<li>
+<p>这里有欧拉反演的一个看起来比较正常的形式：
+\(n=\sum_{d|n}\varphi(d)\) .</p>
+</li>
+<li>
+<p>求单个欧拉函数：
+\(\varphi(n)=n\times\prod_{i=1}^k\frac{p_i-1}{p_i}\) ，此处 
+\(n=\prod_{i=1}^kp_i^{c_i}\) .</p>
+</li>
+<li>
+<p>若 
+\(n=p^k\) ，则 
+\(\varphi(n)=p^k-p^{k-1}\) .</p>
+</li>
+</ol>
+
+
+
+
+<h3 class="relative group">莫比乌斯函数 \(\mu(n)\) 
+    <div id="%E8%8E%AB%E6%AF%94%E4%B9%8C%E6%96%AF%E5%87%BD%E6%95%B0-mun" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E8%8E%AB%E6%AF%94%E4%B9%8C%E6%96%AF%E5%87%BD%E6%95%B0-mun" aria-label="锚点">#</a>
+    </span>        
+    
+</h3>
+<p>
+
+\(\mu(n)=\begin{cases}1&amp;&amp; n=1\\ 0 &amp;&amp; n\ 含有平方因子 \\ (-1)^k &amp;&amp; k\ 为\ n\ 的本质不同质因子个数\end{cases}\)</p>
+<p>三个式子：</p>
+<ol>
+<li>
+<p>这也是个积性函数，即当 
+\((i,j)=1\) 时，
+\(\mu(ij)=\mu(i)\times\mu(j)\) .</p>
+</li>
+<li>
+<p>
+\(\sum_{d|n}\mu(d)=[n=1]=\varepsilon(n)\) ，这个会拿去做反演和卷积.</p>
+</li>
+<li>
+<p>据说有拓展形式，日后再补.</p>
+</li>
+</ol>
+
+
+<h2 class="relative group">常见卷积 
+    <div id="%E5%B8%B8%E8%A7%81%E5%8D%B7%E7%A7%AF" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E5%B8%B8%E8%A7%81%E5%8D%B7%E7%A7%AF" aria-label="锚点">#</a>
+    </span>        
+    
+</h2>
+
+
+<h3 class="relative group">狄利克雷（Dirichlet）卷积 
+    <div id="%E7%8B%84%E5%88%A9%E5%85%8B%E9%9B%B7dirichlet%E5%8D%B7%E7%A7%AF" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E7%8B%84%E5%88%A9%E5%85%8B%E9%9B%B7dirichlet%E5%8D%B7%E7%A7%AF" aria-label="锚点">#</a>
+    </span>        
+    
+</h3>
+<p>
+
+\((f*g)(n)=\sum_{d|n}f(d)\times g(\frac{n}{d})\)</p>
+<p>这个定义式在有些题目中可以化为卷积形式，然后用莫比乌斯反演推式子求解.</p>
+<p>几个性质：</p>
+<ul>
+<li>
+<p>若 
+\(f\)、
+\(g\) 都是积性函数，则 
+\(f\ast g\) 也是积性函数.</p>
+</li>
+<li>
+<p>交换律：
+\(f\ast g=g\ast f\)</p>
+</li>
+<li>
+<p>结合律：
+\(f\ast (g\ast h)=(f\ast g)\ast h\)</p>
+</li>
+<li>
+<p>分配律：
+\((f+g)\ast h=f\ast h+g\ast h\)</p>
+</li>
+</ul>
+<p>基本上可以把这个卷积视作定义在函数之间的新运算，除此之外，一般题目的式子大概率是不会把定义式化过来化过去的.</p>
+
+
+<h3 class="relative group">一些卷积式 
+    <div id="%E4%B8%80%E4%BA%9B%E5%8D%B7%E7%A7%AF%E5%BC%8F" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E4%B8%80%E4%BA%9B%E5%8D%B7%E7%A7%AF%E5%BC%8F" aria-label="锚点">#</a>
+    </span>        
+    
+</h3>
+<ol>
+<li>
+<p>
+\(\varepsilon=\mu*1\) ，直接按定义式展开易证，不难发现 
+\(\mathrm{RHS}=\sum_{d|n}\mu(d)=[n=1]=\varepsilon(n)\) 也就是莫比乌斯函数的性质2.</p>
+<p>由上式，可以知道 
+\(\mu=1^{-1}\) ，所以有 
+\(g=f*\pmb 1 \Leftrightarrow f=g*\mu\) ，即</p>
+<p>
+
+\(g(n)=\sum_{d|n}f(d)\Leftrightarrow f(n)=\sum_{d|n}\mu(d)g(\frac{n}{d})\)</p>
+<p>这就是常见的莫比乌斯反演的形式. 更进一步的，还有</p>
+<p>
+
+\(sum_{d|(i,j)}\mu(d)=\varepsilon((i,j))\)</p>
+</li>
+<li>
+<p>
+\(\sigma_0=1*1\)</p>
+</li>
+<li>
+<p>
+\(\sigma_1=ID*1\)</p>
+</li>
+<li>
+<p>
+\(\sigma_2=ID*ID\)</p>
+</li>
+<li>
+<p>
+\(ID=\varphi*1\) ，这就是欧拉反演的卷积式形式.</p>
+</li>
+<li>
+<p>
+\(\varphi=\mu*ID\)</p>
+</li>
+<li>
+<p>
+\((ID_n\cdot \mu)*ID_n=\varepsilon\)</p>
+</li>
+<li>
+<p>
+\((ID_n\cdot \varphi)*ID_n=ID_n\)</p>
+</li>
+</ol>
+
+
+<h2 class="relative group">常见定理 
+    <div id="%E5%B8%B8%E8%A7%81%E5%AE%9A%E7%90%86" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E5%B8%B8%E8%A7%81%E5%AE%9A%E7%90%86" aria-label="锚点">#</a>
+    </span>        
+    
+</h2>
+
+
+<h3 class="relative group">欧拉定理 
+    <div id="%E6%AC%A7%E6%8B%89%E5%AE%9A%E7%90%86" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E6%AC%A7%E6%8B%89%E5%AE%9A%E7%90%86" aria-label="锚点">#</a>
+    </span>        
+    
+</h3>
+
+
+<h3 class="relative group">拓展欧拉定理 
+    <div id="%E6%8B%93%E5%B1%95%E6%AC%A7%E6%8B%89%E5%AE%9A%E7%90%86" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E6%8B%93%E5%B1%95%E6%AC%A7%E6%8B%89%E5%AE%9A%E7%90%86" aria-label="锚点">#</a>
+    </span>        
+    
+</h3>
+<p>
+
+\(a^b\equiv \begin{cases}
+a^{b\bmod \varphi(p)}&amp;(a,p)=1\\
+a^b&amp;(a,p)\ne 1,b&lt;\varphi(p)\\
+a^{b\bmod \varphi(p)+\varphi(p)}&amp;(a,p)\ne 1,b\geq\varphi(p)\\
+\end{cases} \mod m\)</p>
+<p>常用于解决“幂的幂次”以及“幂的递归”一类问题.</p>
+<p>在有些数论题目中会客串，要注意模数的不同.</p>
+
+
+<h2 class="relative group">筛子 
+    <div id="%E7%AD%9B%E5%AD%90" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E7%AD%9B%E5%AD%90" aria-label="锚点">#</a>
+    </span>        
+    
+</h2>
+
+
+<h3 class="relative group">线性筛 
+    <div id="%E7%BA%BF%E6%80%A7%E7%AD%9B" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E7%BA%BF%E6%80%A7%E7%AD%9B" aria-label="锚点">#</a>
+    </span>        
+    
+</h3>
+<p>可以线性递推积性函数的值，最常见的比如 
+\(\varphi(i)\) 和 
+\(\mu(i)\) .</p>
+
+
+<h3 class="relative group">埃氏筛 
+    <div id="%E5%9F%83%E6%B0%8F%E7%AD%9B" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E5%9F%83%E6%B0%8F%E7%AD%9B" aria-label="锚点">#</a>
+    </span>        
+    
+</h3>
+<p>很少用。可以分块递推大质数表，但这好像是另外一个算法了.</p>
+
+
+<h3 class="relative group">杜教筛 
+    <div id="%E6%9D%9C%E6%95%99%E7%AD%9B" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E6%9D%9C%E6%95%99%E7%AD%9B" aria-label="锚点">#</a>
+    </span>        
+    
+</h3>
+<p>可以在<strong>亚线性</strong>复杂度内求积性函数前缀和.</p>
+<p><del>除此之外，还需要惊人的注意力</del></p>
+<p>引理：对于<strong>任意</strong>数论函数 
+\(f\)、
+\(g\) 满足 
+\(S_{f*g}(n)=\sum_{i=1}^{n}g(i)\cdot S_f([\frac{n}{i}])=g(1)S_f(n)+\sum_{i=2}^{n}g(i)S_f([\frac{n}{i}])\)</p>
+<p>总的来说，有了这个引理，我要是想求 
+\(f\) 函数前缀和，就只需要构造一个函数 
+\(g\) 使得 
+\(f*g\) 是易求的，再套上下面的式子递归处理就ok了.</p>
+<p>
+
+\(\boxed{S_f(n)=\frac{1}{g(1)}\left(S_{f*g}(n)-\sum_{i=2}^{n}g(i)\cdot S_f([\frac{n}{i}])\right)}\)</p>
+<p>那么，举个例子，假如我要求 
+\(\varphi\) 的前缀和，因为我知道 
+\(\varphi*1=ID\) ，所以有：</p>
+<p>
+
+\(S_\varphi(n)=S_{f*g}(n)-\sum_{i=2}^{n}S_\varphi([\frac{n}{i}])\)</p>
+<p>
+
+\(S_\varphi(n)=\frac{n(n+1)}{2}-\sum_{i=2}^{n}S_\varphi([\frac{n}{i}])\)</p>
+<p>然后把这个写到记忆化搜索里面去就ok了.</p>
+<p>再举个例子，假如要求 
+\(\mu\) 的前缀和，同理，由 
+\(\mu*1=\varepsilon\) 可得 
+\(S_\mu(n)=1-\sum_{i=2}^{n}S_\mu([\frac{n}{i}])\) （注意 
+\(S_\varepsilon(n)=1\) ）.</p>
+<p>代码实现参见<a href="https://www.luogu.com.cn/problem/P4213" target="_blank">【模板】杜教筛</a>.</p>
+<p>对于不常见函数的杜教筛，后面再补充.</p>
+<p>总的来说，一般的题目只需要记好之前提到的常见卷积式就ok啦.</p>
+
+
+<h3 class="relative group">PN筛 
+    <div id="pn%E7%AD%9B" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#pn%E7%AD%9B" aria-label="锚点">#</a>
+    </span>        
+    
+</h3>
+<p>定义（Powerful Number）：任意素因子次数均大于等于 
+\(2\) 的数.</p>
+<p>引理：所有PN都可以写成 
+\(a^2b^3\) 的形式.</p>
+<p>PN筛：对于积性函数 
+\(f\) ，构造积性函数 
+\(g\) ，使积性函数 
+\(h=f\ast g^{-1}\) 仅在PN处有值，从而 
+\(S_f=S_g\ast h\) .</p>
+<p>算法（暴力搜索PN表）：直接暴力搜素数次数，时间复杂度 
+\(O(\sqrt{n})\) .</p>
+<p>定义（素数拟合）：对于函数 
+\(f\)、
+\(g\) ，
+\(\forall p\in P\) ，
+\(f(p)=g(p)\) .</p>
+<p>引理：若积性函数 
+\(f\)、
+\(g\) 素数拟合且 
+\(f(1)=g(1)=1\) ，则 
+\(h=f*g^{-1}\) 仅在PN处有值（PN函数）.</p>
+<p>引理：若 
+\(h\) 为PN函数，代入 
+\(f=g*h\) 可得：</p>
+<p>
+
+\(\boxed{S_f(n)=\sum_{d\in[1,n]\ \mathrm{and}\ d\ \mathrm{is}\ PN}h(d)S_g([\frac{n}{d}])}\)</p>
+<p>那么整个求解过程可以分成三个板块：</p>
+<ol>
+<li>
+<p>递归或预处理Powerful Number 
+\(d\) .</p>
+</li>
+<li>
+<p>求解积性函数 
+\(h\) 在某个点上的值.</p>
+</li>
+<li>
+<p>求解 
+\(S_g\) ，也就是积性函数 
+\(g\) 的前缀和.</p>
+</li>
+</ol>
+<p>对于 3 ，一般使用杜教筛求解.</p>
+<p>对于 2 ，由于 
+\(h\) 是积性函数，所以只需要求 
+\(h(p^c)\) 后递推即可，那么此时有三种方法可以选择：</p>
+<ul>
+<li>
+<p>通项公式（前提是超级强大的数学功底）.</p>
+</li>
+<li>
+<p>逆元：通过 
+\(g\ast g^{-1}=\varepsilon\) 求逆后，用 
+\(h=f_k\ast g^{-1}\) 求解.</p>
+</li>
+<li>
+<p>通用解法：</p>
+<p>由 
+\(f=g*h\) ，有 
+\(f(p^c)=g(1)h(p^c)+\sum_{i=1}^cg(p^i)h(p^{c-i})\)</p>
+<p>移项：
+\(h(p^c)=f(p^c)-\sum_{i=1}^cg(p^i)h(p^{c-i})\)</p>
+<p>接下来枚举 
+\(p\) 递推 
+\(c\) 即可.</p>
+</li>
+</ul>
+<p>对于 1 ，小小DFS即可将其拿下.</p>
+<p>代码实现参见<a href="https://www.luogu.com.cn/problem/P5325" target="_blank">【模板】Min_25筛</a>.</p>
+
+          
+          
+          
+        </div>
+        
+        
+
+        
+        
+
+          
+      </div>
+     
+      
+      
+        
+        
+          
+          
+        
+      <script>
+        var oid = "views_posts\\Hello\\index.md"
+        var oid_likes = "likes_posts\\Hello\\index.md"
+      </script>
+      
+      
+      <script type="text/javascript" src="/js/page.min.0860cf4e04fa2d72cc33ddba263083464d48f67de06114529043cb4623319efed4f484fd7f1730df5abea0e2da6f3538855634081d02f2d6e920b956f063e823.js" integrity="sha512-CGDPTgT6LXLMM926JjCDRk1I9n3gYRRSkEPLRiMxnv7U9IT9fxcw31q&#43;oOLabzU4hVY0CB0C8tbpILlW8GPoIw=="></script>
+      
+  
+    </section>
+  <footer class="pt-8 max-w-prose print:hidden">
+
+    
+  
+
+
+    
+  </footer>
+</article>
+
+      <div id="top-scroller" class="pointer-events-none absolute top-[110vh] bottom-0 w-12 ltr:right-0 rtl:left-0">
+  <a href="#the-top"
+    class="pointer-events-auto sticky top-[calc(100vh-5.5rem)] flex h-12 w-12 mb-16 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
+    aria-label="返回顶部" title="返回顶部">
+    &uarr;
+  </a>
+</div>
+    </main><footer id="site-footer" class="py-10 print:hidden">
+  
+  
+    
+  
+  <div class="flex items-center justify-between">
+
+    
+    
+    <p class="text-sm text-neutral-500 dark:text-neutral-400">
+      &copy;
+      2025
+      
+    </p>
+    
+
+    
+    
+    <p class="text-xs text-neutral-500 dark:text-neutral-400">
+      
+      
+      由 <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
+        href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo</a> &amp; <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
+        href="https://blowfish.page/" target="_blank" rel="noopener noreferrer">Blowfish</a> 强力驱动
+    </p>
+    
+
+  </div>
+  <script>
+    
+    mediumZoom(document.querySelectorAll("img:not(.nozoom)"), {
+      margin: 24,
+      background: 'rgba(0,0,0,0.5)',
+      scrollOffset: 0,
+    })
+    
+  </script>
+  
+  
+  <script type="text/javascript" src="/js/process.min.ee03488f19c93c2efb199e2e3014ea5f3cb2ce7d45154adb3399a158cac27ca52831db249ede5bb602700ef87eb02434139de0858af1818ab0fb4182472204a4.js" integrity="sha512-7gNIjxnJPC77GZ4uMBTqXzyyzn1FFUrbM5mhWMrCfKUoMdsknt5btgJwDvh&#43;sCQ0E53ghYrxgYqw&#43;0GCRyIEpA=="></script>
+  
+  
+</footer>
+<div
+  id="search-wrapper"
+  class="invisible fixed inset-0 flex h-screen w-screen cursor-default flex-col bg-neutral-500/50 p-4 backdrop-blur-sm dark:bg-neutral-900/50 sm:p-6 md:p-[10vh] lg:p-[12vh]"
+  data-url="http://localhost:1313/"
+  style="z-index:500"
+>
+  <div
+    id="search-modal"
+    class="flex flex-col w-full max-w-3xl min-h-0 mx-auto border rounded-md shadow-lg top-20 border-neutral-200 bg-neutral dark:border-neutral-700 dark:bg-neutral-800"
+  >
+    <header class="relative z-10 flex items-center justify-between flex-none px-2">
+      <form class="flex items-center flex-auto min-w-0">
+        <div class="flex items-center justify-center w-8 h-8 text-neutral-400">
+          
+
+  <span class="relative block icon">
+    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+
+  </span>
+
+
+        </div>
+        <input
+          type="search"
+          id="search-query"
+          class="flex flex-auto h-12 mx-1 bg-transparent appearance-none focus:outline-dotted focus:outline-2 focus:outline-transparent"
+          placeholder="搜索"
+          tabindex="0"
+        />
+      </form>
+      <button
+        id="close-search-button"
+        class="flex items-center justify-center w-8 h-8 text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400"
+        title="关闭 (Esc)"
+      >
+        
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
+
+  </span>
+
+
+      </button>
+    </header>
+    <section class="flex-auto px-2 overflow-auto">
+      <ul id="search-results">
+        
+      </ul>
+    </section>
+  </div>
+</div>
+
+  </div>
+</body>
+
+</html>

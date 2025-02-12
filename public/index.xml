@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Itsuka的小站</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Itsuka的小站</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© 2025 Itsuka的小站</copyright>
+    <lastBuildDate>Tue, 11 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>数论总结</title>
+      <link>http://localhost:1313/posts/number-theory/</link>
+      <pubDate>Tue, 11 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/number-theory/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/number-theory/feature_9e729602ad85e9fe1f415e9cc98e1ebe_1879240451371017447.jpg" />
+    </item>
+    
+    <item>
+      <title>分块思想</title>
+      <link>http://localhost:1313/posts/sqrt-decomposition/</link>
+      <pubDate>Mon, 17 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/sqrt-decomposition/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/sqrt-decomposition/feature_Gh4MBNTbAAAJHoJ.jpg" />
+    </item>
+    
+    <item>
+      <title>二分图与图的连通性</title>
+      <link>http://localhost:1313/posts/bipgraph-and-connectivity/</link>
+      <pubDate>Sun, 09 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/bipgraph-and-connectivity/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/bipgraph-and-connectivity/feature_Citlali.jpg" />
+    </item>
+    
+  </channel>
+</rss>
