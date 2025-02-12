@@ -28,7 +28,7 @@ jobs:
      uses: peaceiris/actions-gh-pages@v3
      with:
 
-       personal_token: ${{ secrets.BLOGPUSH }}   # PUBLIC 请改为你设置的 Secret 名称
+       personal_token: ${{ secrets.BGP }}   # PUBLIC 请改为你设置的 Secret 名称
 
        publish_dir: ./public
 
