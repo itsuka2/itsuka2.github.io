@@ -84,55 +84,9 @@ Kosaraju算法的流程如下：
 
 1. 重复寻找图 {{<katex>}}\\(G\\) 中未被讨论的点，从它开始DFS**后序**遍历图 {{<katex>}}\\(G\\) ，遍历到的点置为已讨论，用数组记录每个点到达的先后次序，直到找不到没有讨论的点.
 2. 将图 {{<katex>}}\\(G\\) 反向得到图 {{<katex>}}\\(G^\prime\\) ，重置所有点为未讨论.
-3. 一直从数组中未讨论的最后一个点出发，DFS**后续**遍历图 {{<katex>}}\\(G^\prime\\) ，DFS每完成一次，就说明找到了一个强连通分量，直到数组中没有未讨论的点.
+3. 一直从数组中未讨论的最后一个点出发，DFS**后序**遍历图 {{<katex>}}\\(G^\prime\\) ，DFS每完成一次，就说明找到了一个强连通分量，直到数组中没有未讨论的点.
 
-这是Kosaraju算法的模板（之所以Kosaraju算法没有放在SCC的模板内，是因为这个算法相对于Tarjan算法少用很多）：
-
-```cpp
-bool g[1001][1001];  // 这里使用的是邻接矩阵
-bool vis[1001];
-int lis[1001], cnt = 0;
-int tag[1001], scc = 0;
-bool ind[1001];
-
-void dfs1(int u) {
-	vis[u] = 1;
-	for (int i = 1; i <= n; i++) {
-		if (g[u][i] && !vis[i]) dfs1(i);
-	}
-	lis[++cnt] = u;
-}
-
-void dfs2(int u) {
-	vis[u] = 1;
-	tag[u] = scc;
-	for (int i = 1; i <= n; i++) {
-		if (g[i][u] && !vis[i]) dfs2(i);  // 这里注意，判断的边是g[i][u]，因为我们要在反图上跑dfs2()
-	}
-}
-
-int main() {
-	for (int i = 1; i <= n; i++) vis[i] = 0;  // 这里可以用memset
-	for (int i = 1; i <= n; i++) {
-		if (!vis[i]) dfs1(i);
-	}
-	for (int i = 1; i <= n; i++) vis[i] = 0;
-	for (int i = cnt; i >= 1; i--) {
-		if (!vis[lis[i]]) {
-			scc++;
-			dfs2(lis[i]);
-		}
-	}
-	for (int i = 1; i <= n; i++) {
-		for (int j = 1; j <= n; j++) {
-			if ((tag[i] != tag[j]) && g[i][j]) {
-                // 此处为缩点
-            }
-		}
-	}
-}
-
-```
+这是一道使用Kosaraju算法的题目：[Transitive Graph](https://codeforces.com/problemset/problem/1900/E)
 
 接下来我们来说说Tarjan算法，这个算法相对于上个算法理解起来要困难些.
 
